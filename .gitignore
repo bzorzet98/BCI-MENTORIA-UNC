@@ -1,0 +1,14 @@
+# --- Base de Datos (Archivos pesados) ---
+data/
+
+# --- Entornos Virtuales ---
+bci_env/
+venv/
+.venv/
+env/
+
+# --- Temporales de Python y Jupyter ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
