@@ -51,25 +51,7 @@ class BaseEEGDataset(ABC):
             data_to_load = [data_to_load]
 
         return subjects, data_to_load
-    
-    @abstractmethod
-    def get_data(self, session=None, subjects=None, data_to_load=None):
-        """
-        Main method to load data. Must be implemented by child classes.
-        
-        Returns:
-        --------
-        dict : {
-            "session_X": {
-                "subject_Y": {
-                    "data_type_Z": {
-                        "run_W": mne.io.Raw
-                    }
-                }
-            }
-        }
-        """
-        pass
+
     
     # @abstractmethod
     # def download(self,):
