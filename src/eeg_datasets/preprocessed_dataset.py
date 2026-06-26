@@ -195,9 +195,6 @@ class PreprocessedDataset(BaseEEGDataset):
             return epochs
         return path
 
-    def get_data(self, session=None, subjects=None, data_to_load=None):
-        return {}
-
     def flatten_subject_data(self, subject_id, session=None, context=None, specifier=None):
         """
         Collapses a subject's hierarchical data into flat X, y matrices.
