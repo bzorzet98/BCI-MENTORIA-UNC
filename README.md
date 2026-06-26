@@ -10,7 +10,7 @@ Si preferís trabajar desde la nube sin instalar nada en tu computadora, podés 
 1. Entrá a [Google Colab](https://colab.research.google.com/).
 2. Creá una nueva notebook en blanco o subí/abrí el archivo `tutorial_inicial.ipynb`.
 3. Ejecutá el bloque de código de inicialización (Celda 1). Este bloque te pedirá permiso para conectar tu Google Drive y **clonará automáticamente el repositorio de GitHub** en tu unidad (`Mi Unidad/bci-mentoria-unc`).
-4. **Subir los Datos:** Lo único que deberás hacer a mano es entrar a tu Google Drive desde el navegador, ir a la carpeta creada `bci-mentoria-unc/data/` y arrastrar allí los archivos `.npy` de las bases de datos (`Cho2017` o `Dreyer2023`) ya preprocesadas.
+4. **Subir los Datos:** Lo único que deberás hacer es copiar la carpeta data compartida en su google Drive. Ir a la carpeta creada `bci-mentoria-unc/data/` y arrastrar allí los archivos `.npy` de las bases de datos (`Cho2017` o `Dreyer2023`) ya preprocesadas.
 
 ## Opción 2: Configuración Local (Trabajar en tu PC)
 
